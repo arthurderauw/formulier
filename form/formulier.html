@@ -2,17 +2,18 @@
 <html lang="nl">
 <head>
 <meta charset="utf-8">
-  <title>customer info</title> <!-- de title aanpassen  -->
+  <title>formulier </title> <!-- de title aanpassen  -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- voeg de meta-informatie author toe  -->
+  <meta name="author" content="Arthur De Rauw">
 </head>
 
 <body>
   <h1>Een plan voor jouw ontwikkeling</h1>
-  <h2>Om een eerste stap te zetten naar een persoonlijk opleidingplan zul je eerst een paar vragen voor jezelf moeten beantoorden. Dit formulier helpt jou daar bij.</h2>
+  <p>Om een eerste stap te zetten naar een persoonlijk opleidingplan zul je eerst een paar vragen voor jezelf moeten beantoorden. Dit formulier helpt jou daar bij.</p>
 
-  <form>
-    name<input type = "text" name="Name" >
+  <form action="http://bla.hosts.ma-cloud.nl/pop.php">
+    name<input type = "text" name="Name" autofocus>
     <select name="klas">
       <option value="MD1a">MD1a</option>
       <option value="MD1b">MD1b</option>
@@ -24,78 +25,79 @@
   <br>
   <br>
   Hoe positief ben je op dit moment over je opleiding?<br>
-    <input type="radio" name="0">0</input>
-    <input type="radio" name="1">1</input>
-    <input type="radio" name="2">2</input>
-    <input type="radio" name="3">3</input>
-    <input type="radio" name="4">4</input>
-    <input type="radio" name="5">5</input>
-    <input type="radio" name="6">6</input>
-    <input type="radio" name="7">7</input>
-    <input type="radio" name="8">8</input>
-    <input type="radio" name="9">9</input>
-    <input type="radio" name="10">10</input><br>
+    <input type="radio" name="Hoe positief ben je op dit moment over je opleiding?" value="0">0
+    <input type="radio" name="Hoe positief ben je op dit moment over je opleiding?" value="1">1
+    <input type="radio" name="Hoe positief ben je op dit moment over je opleiding?" value="2">2
+    <input type="radio" name="Hoe positief ben je op dit moment over je opleiding?" value="3">3
+    <input type="radio" name="Hoe positief ben je op dit moment over je opleiding?" value="4">4
+    <input type="radio" name="Hoe positief ben je op dit moment over je opleiding?" value="5">5
+    <input type="radio" name="Hoe positief ben je op dit moment over je opleiding?" value="6">6
+    <input type="radio" name="Hoe positief ben je op dit moment over je opleiding?" value="7">7
+    <input type="radio" name="Hoe positief ben je op dit moment over je opleiding?" value="8">8
+    <input type="radio" name="Hoe positief ben je op dit moment over je opleiding?" value="9">9
+    <input type="radio" name="Hoe positief ben je op dit moment over je opleiding?" value="10">10<br>
 
     <br>
     Hoe gemotiveerd ben je momenteel om de opleiding af te maken?<br>
-    <input type="radio" name="0">0</input>
-    <input type="radio" name="1">1</input>
-    <input type="radio" name="2">2</input>
-    <input type="radio" name="3">3</input>
-    <input type="radio" name="4">4</input>
-    <input type="radio" name="5">5</input>
-    <input type="radio" name="6">6</input>
-    <input type="radio" name="7">7</input>
-    <input type="radio" name="8">8</input>
-    <input type="radio" name="9">9</input>
-    <input type="radio" name="10">10</input><br>
+    <input type="radio" name="1">0
+    <input type="radio" name="1">1
+    <input type="radio" name="1">2
+    <input type="radio" name="1">3
+    <input type="radio" name="1">4
+    <input type="radio" name="1">5
+    <input type="radio" name="1">6
+    <input type="radio" name="1">7
+    <input type="radio" name="1">8
+    <input type="radio" name="1">9
+    <input type="radio" name="1">10<br>
 
     <br>
     Hoeveel vertrouwen heb je momenteel in je eigen kunnen?<br>
-    <input type="radio" name="0">0</input>
-    <input type="radio" name="1">1</input>
-    <input type="radio" name="2">2</input>
-    <input type="radio" name="3">3</input>
-    <input type="radio" name="4">4</input>
-    <input type="radio" name="5">5</input>
-    <input type="radio" name="6">6</input>
-    <input type="radio" name="7">7</input>
-    <input type="radio" name="8">8</input>
-    <input type="radio" name="9">9</input>
-    <input type="radio" name="10">10</input><br>
+    <input type="radio" name="2">0
+    <input type="radio" name="2">1
+    <input type="radio" name="2">2
+    <input type="radio" name="2">3
+    <input type="radio" name="2">4
+    <input type="radio" name="2">5
+    <input type="radio" name="2">6
+    <input type="radio" name="2">7
+    <input type="radio" name="2">8
+    <input type="radio" name="2">9
+    <input type="radio" name="2">10<br>
+    <br>
 
     sterke kanten<br>
     <br>
     wat zijn jouw sterke kanten?<br>
-    <input type="checkbox" name="0">Coderen in HTML/CSS</input>
-    <input type="checkbox" name="1">Programmeren in Java</input>
-    <input type="checkbox" name="2">Scripting: programmeren in JavaScript</input>
-    <input type="checkbox" name="3">planning</input>
-    <input type="checkbox" name="4">Samenwerken</input><br>
+    <input type="checkbox" name="3">Coderen in HTML/CSS
+    <input type="checkbox" name="3">Programmeren in Java
+    <input type="checkbox" name="3">Scripting: programmeren in JavaScript
+    <input type="checkbox" name="3">planning
+    <input type="checkbox" name="3">Samenwerken<br>
 
     <br>
     Nog te ontwikkelen<br>
     <br>
     Aan welke skills moet je nog extra aandacht besteden?<br>
-    <input type="checkbox" name="0">Coderen in HTML/CSS</input>
-    <input type="checkbox" name="1">Programmeren in Java</input>
-    <input type="checkbox" name="2">Scripting: programmeren in JavaScript</input>
-    <input type="checkbox" name="3">planning</input>
-    <input type="checkbox" name="4">Samenwerken</input><br>
+    <input type="checkbox" name="4">Coderen in HTML/CSS
+    <input type="checkbox" name="4">Programmeren in Java
+    <input type="checkbox" name="4">Scripting: programmeren in JavaScript
+    <input type="checkbox" name="4">planning
+    <input type="checkbox" name="4">Samenwerken<br>
 
     <br>
     Hoeveel moeite steek je in je werk?<br>
-    <input type="radio" name="0">0</input>
-    <input type="radio" name="1">1</input>
-    <input type="radio" name="2">2</input>
-    <input type="radio" name="3">3</input>
-    <input type="radio" name="4">4</input>
-    <input type="radio" name="5">5</input>
-    <input type="radio" name="6">6</input>
-    <input type="radio" name="7">7</input>
-    <input type="radio" name="8">8</input>
-    <input type="radio" name="9">9</input>
-    <input type="radio" name="10">10</input><br>
+    <input type="radio" name="5">0
+    <input type="radio" name="5">1
+    <input type="radio" name="5">2
+    <input type="radio" name="5">3
+    <input type="radio" name="5">4
+    <input type="radio" name="5">5
+    <input type="radio" name="5">6
+    <input type="radio" name="5">7
+    <input type="radio" name="5">8
+    <input type="radio" name="5">9
+    <input type="radio" name="5">10<br>
 
     <br>
     Wat zijn jouw plannen voor de toekomst?<br>
